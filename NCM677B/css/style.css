@@ -1,0 +1,77 @@
+*
+{
+  margin : 0px;
+  padding : 0px;
+}
+#googleMap
+{
+  width : 65%;
+  height : 100vh;
+  float : left;
+  display : inline-block;
+
+}
+#box
+{
+  float : left;
+  display : inline-block;
+  width : 35%;
+  height : 90vh;
+}
+#tweetText
+{
+  width : 100%;
+  border-radius: 15px;
+  padding: 2%;
+  border : 1px solid #A4D9F9;
+  resize: none;
+}
+#tweetBtn
+{
+  float : right;
+  background-color: #4AB3F4;
+  border : 1px solid #4AB3F4;
+  color : white;
+  cursor : pointer;
+  border-radius: 100px;
+  padding: 2% 5%;
+}
+#tweet
+{
+  margin: auto;
+  width: 50%;
+  padding-top: 10px;
+  height : 25vh;
+}
+#tokenKey
+{
+  width : 50%;
+  border-radius: 15px;
+  padding: 2%;
+  border : 1px solid #A4D9F9;
+  resize: none;
+}
+#requestBtn
+{
+  float : right;
+  background-color: #4AB3F4;
+  border : 1px solid #4AB3F4;
+  color : white;
+  cursor : pointer;
+  border-radius: 100px;
+  padding: 2% 5%;
+}
+#tweetResult
+{
+  overflow-y: auto;
+  height : 65vh;
+}
+#tweetResult table
+{
+  border-collapse: collapse;
+}
+#tweetResult table tr, #tweetResult table th, #tweetResult table td
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
